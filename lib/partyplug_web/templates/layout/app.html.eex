@@ -13,13 +13,13 @@
 
   <body>
     <div class="container">
+      <div class="container">
       <header class="header">
         <nav role="navigation">
           <ul class="nav nav-pills pull-right">
-            <li><a href="http://www.phoenixframework.org/docs">Get Started</a></li>
+            <%# <%= Partyplug.Coherence.ViewHelpers.coherence_links(@conn, :layout) %1> %>
           </ul>
         </nav>
-        <span class="logo"></span>
       </header>
 
       <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
